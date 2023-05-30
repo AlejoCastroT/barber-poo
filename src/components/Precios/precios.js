@@ -1,10 +1,17 @@
 import React from 'react'
+import estilos from './precios.module.css'
 
 function Precios() {
   return (
-    <div>
-        <h1>PRECIOS</h1>
-    </div>
+    <section className={estilos.container} id='precios'>
+      <div>
+      <h1 className={estilos.titulo}>PRECIOS</h1>
+      </div>
+
+      <div className={estilos.cards}>
+
+      </div>
+    </section>
   )
 }
 
