@@ -1,11 +1,11 @@
 import React from 'react'
-import './contacto.css'
+import estilos from './contacto.module.css'
 
 const Contacto = () => {
   return (
-    <section>
-      <h1>Hola</h1>
-    </section>
+    <div className={estilos.Contacto}>
+      <h1>CONTACTO</h1>
+    </div>
   )
 }
 

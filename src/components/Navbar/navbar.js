@@ -1,14 +1,14 @@
 import React from "react";
-import './navbar.css'
+import './navbar.module.css'
 
-function Hola(){
+function Navbar(){
 
     
     return(
         <div>
-            <h1>EJEMPLO DE COMO VAMOS A TRABAR LOS COMPONENTES</h1>
+            <h1>ACA VA EN NAVBAR</h1>
         </div>
     );
 }
 
-export default Hola;
+export default Navbar;
