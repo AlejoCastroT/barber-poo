@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.imagen {
+    height: 250px;
+    width: 250px;
+    margin-left: 250px;
+    border-radius: 25px;
+
+
+}
+
