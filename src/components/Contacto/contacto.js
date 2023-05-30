@@ -4,7 +4,7 @@ import estilos from './contacto.module.css'
 const Contacto = () => {
   return (
     <div className={estilos.Contacto}>
-      <h1>CONTACTO</h1>
+      <h1>CONTACATOPIDE CONTACTO</h1>
     </div>
   )
 }
