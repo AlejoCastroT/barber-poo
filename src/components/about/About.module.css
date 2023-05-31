@@ -1,0 +1,23 @@
+.container {
+    background-color: #e0e1dd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.content {
+    margin-left: 20px;
+    position: relative;
+    margin: 0 auto;
+    
+    
+}
+
+
+.imagen {
+    padding: 0;
+    width: 600px;
+    height: 500px;
+}
+
