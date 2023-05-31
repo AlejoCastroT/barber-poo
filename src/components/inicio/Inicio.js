@@ -1,16 +1,13 @@
 import React from 'react';
-import imagen from "../../assets/henry-co-a2VJlQ3yxmQ-unsplash.jpg"
 import estilos from "./Inicio.module.css";
+
 
 export const Inicio = () => {
   return (
-    <div className={estilos.container}>
+    <section className={estilos.container} id='inicio'>
         <div>
-            <p>
-                Descripción de la barbería 
-            </p>
+            <h1 class={estilos.name}>OLD STYLE</h1>
         </div>        
-        <img src={imagen} className={estilos.imagen} alt="Logo de la barbería" />
-    </div>
+    </section>
   );
 };
