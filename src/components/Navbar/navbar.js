@@ -1,14 +1,27 @@
-import React from "react";
-import './navbar.module.css'
+import React, { useState } from 'react';
 
-function Navbar(){
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
-    
-    return(
-        <div>
-            <h1>ACA VA EN NAVBAR</h1>
-        </div>
-    );
-}
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <nav className={`navbar ${isOpen ? 'open' : ''}`}>
+      <div className="navbar-toggle" onClick={toggleNavbar}>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+      </div>
+      <ul className="navbar-menu">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/acerca">Acerca</a></li>
+        <li><a href="/servicios">Servicios</a></li>
+        <li><a href="/contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  );
+};
 
 export default Navbar;

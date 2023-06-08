@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Navbar {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: green;
+}
+
+.Navbar > .nav_logo {
+    font-weight: 700;
+    font-size: 21px;
+    margin: 15px;
+    color: white;
+}
+
+.Navbar > .nav_items > a:hover::before {
+    width: 100%;
+
+}
+
+/* import React from "react";
+import estilos from './navbar.module.css'
+
+export const Navbar = () => {
+    return (
+        <div class={estilos.Navbar}>
+            <span class={estilos.nav_logo}>Nombre barberia</span>
+            <div class={estilos.nav_items}>
+                <a href="/inicio">Inicio</a>
+                <a href="/about">Sobre nosotros</a>
+                <a href="/contact">Contacto</a>
+            </div>
+            <div class={estilos.nav_togle}>
+                <div class={estilos.bar}></div>
+
+            </div>
+        </div>
+    );
+}
+export default Navbar;
+*/
