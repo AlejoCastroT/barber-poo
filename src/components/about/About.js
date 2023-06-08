@@ -5,7 +5,6 @@ import imagen from '../../assets/sillaAbout.jpg'
 export const About = () => {
   return (
     <div class={estilos.container}>
-
       <div className={estilos.content}>
       <h1 class={estilos.content}>
         ABOUT
@@ -18,7 +17,7 @@ export const About = () => {
       ¡Estamos ansiosos por conocerte y brindarte un servicio de primera clase!"
       </p>
       </div>
-      <img className={estilos.imagen} src={imagen}>
+      <img className={estilos.imagen} src={imagen} alt='silla'>
       </img>
     </div>
   )
