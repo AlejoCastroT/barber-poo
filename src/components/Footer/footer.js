@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import styles from '../Footer/footer.module.css'
 
-function Footer() {
+const Footer = () => {
   return (
-    <div>
-        <h1>FOOTER</h1>
-    </div>
-  )
-}
+    <footer className={styles.footer}>
+      <p>&copy; 2023 BARBERÍA JH.</p> <p>Camilo Rubio - 
+        Alejandro Castro -
+        Aarón Peña</p>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
