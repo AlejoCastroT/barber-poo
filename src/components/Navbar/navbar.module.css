@@ -95,12 +95,13 @@ header .nav-btn {
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    background-color: #f2f2f2;
+    background-color: #3b3939a2;
   }
   
   .navbar h1 {
     font-size: 1.5rem;
-    margin: 0;
+    color: white;
+    margin: 2px;
   }
   
   .toggleButton {
@@ -117,7 +118,7 @@ header .nav-btn {
   .toggleIcon {
     width: 20px;
     height: 2px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     margin: 2px;
   }
   
@@ -134,7 +135,9 @@ header .nav-btn {
   
   .navbarLinks a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 20px;
   }
   
   .showNav {
@@ -142,6 +145,19 @@ header .nav-btn {
   }
 
 nav a:hover {
-    color: blue;
+    color:rgb(0, 0, 0);
 }
- 
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0303038c;
+  z-index: 100;
+}
+
+.navbar.open {
+  background-color: #555; /* Cambia el color de fondo cuando el menú está abierto */
+}
+

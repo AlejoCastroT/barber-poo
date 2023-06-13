@@ -3,7 +3,7 @@ import estilos from './contacto.module.css'
 
 const Contacto = () => {
   return (
-    <section className={estilos.contacto}>
+    <section className={estilos.contacto} id='contacto'>
       <h1 className={estilos.h1}>CONTACTO</h1>
       <div className={estilos.contactoContainer}>
         <div className={estilos.fromContainer}>

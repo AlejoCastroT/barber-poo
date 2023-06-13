@@ -4,6 +4,7 @@ import imagen from '../../assets/sillaAbout.jpg'
 
 export const About = () => {
   return (
+    <section id='sobre'>
     <div class={estilos.container}>
       <div className={estilos.content}>
       <h1 class={estilos.content}>
@@ -21,5 +22,6 @@ export const About = () => {
       <img className={estilos.imagen} src={imagen} alt='silla'>
       </img>
     </div>
+    </section>
   )
 }
