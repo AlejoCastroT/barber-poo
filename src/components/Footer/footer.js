@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <p>&copy; 2023 BARBERÍA JH.</p> <p>Camilo Rubio - 
         Alejandro Castro -
-        Aarón Peña</p>
+        Aarón Peña - Isaac Rodrigez</p>
     </footer>
   );
 };

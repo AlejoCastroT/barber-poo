@@ -9,20 +9,16 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={styles.navbar}>
-      <h1>Logo</h1>
-      <button className={styles.toggleButton} onClick={handleToggle}>
-        <span className={styles.toggleIcon}></span>
-      </button>
+    <nav className={`${styles.navbar} ${isOpen ? styles.open : ''}`}>
+      <h1>Barberia JH</h1>
       <ul className={`${styles.navbarLinks} ${isOpen ? styles.showNav : ''}`}>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#precios">Precios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
       </ul>
     </nav>
   );
 };
 
 export default Navbar;
-
-

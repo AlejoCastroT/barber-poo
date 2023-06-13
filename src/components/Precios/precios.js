@@ -4,7 +4,7 @@ import img from '../../assets/agustin-fernandez-1Pmp9uxK8X8-unsplash.jpg'
 
 function Precios() {
   return (
-    <section className={estilos.contacto}>
+    <section className={estilos.contacto} id='precios'>
       <h1 className={estilos.h1}>PRECIOS</h1>
     <div className={estilos.container}>
       <div className={estilos.containerCard}>
