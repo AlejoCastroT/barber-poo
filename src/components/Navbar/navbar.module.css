@@ -6,12 +6,6 @@
     background-color: #3b3939a2;
   }
   
-  .navbar h1 {
-    font-size: 1.5rem;
-    color: white;
-    margin: 2px;
-  }
-  
   .toggleButton {
     background-color: transparent;
     border: none;

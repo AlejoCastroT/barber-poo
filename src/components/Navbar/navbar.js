@@ -10,7 +10,6 @@ const Navbar = () => {
 
   return (
     <nav className={`${styles.navbar} ${isOpen ? styles.open : ''}`}>
-      <h1>Barberia JH</h1>
       <ul className={`${styles.navbarLinks} ${isOpen ? styles.showNav : ''}`}>
         <li><a href="#inicio">Inicio</a></li>
         <li><a href="#sobre">Sobre</a></li>
